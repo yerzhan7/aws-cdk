@@ -6,7 +6,7 @@ import { Construct } from '@aws-cdk/core';
 /**
  * Options that may be provided to LambdaDestination
  */
-export interface LambdaDestinationOptions{
+export interface LambdaDestinationOptions {
   /** Whether or not to add Lambda Permissions.
    * @default true
    */
